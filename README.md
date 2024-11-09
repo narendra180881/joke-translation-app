@@ -52,13 +52,6 @@ This will execute the test suite for the application and show the test results i
 
 - Make sure you have the correct Node.js version installed.
 - Verify that the environment variable SECRET_API_KEY is set up properly. Otherwise the language translation will not work
-- Make sure the tsconfig compiler options have jsx set to react otherwise you might see random test failure.
-
-  ```
-  "compilerOptions": {
-      "jsx": "react",
-  }
-  ```
 
 <br><br>
 
