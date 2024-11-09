@@ -1,0 +1,146 @@
+/* General app container styling */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 5rem auto 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Content area styling */
+.content {
+  height: 100%;
+  min-height: 7rem;
+}
+
+/* Loading text styling */
+.loading {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error {
+  font-size: 1.2rem;
+  color: #b94a48;
+  /* light red */
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Joke display styling */
+.joke-display {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Center content */
+.center-content {
+  text-align: center;
+  /* Optional: centers text within the elements */
+}
+
+/* Button styling */
+.translate-btn {
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.translate-btn:hover {
+  background-color: #45a049;
+}
+
+/* Language selector styling */
+.languageSelector {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  /* For tablets and smaller screens */
+
+  .app-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .joke-display {
+    font-size: 1.4rem;
+  }
+
+  .translate-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .loading,
+  .error {
+    font-size: 1rem;
+  }
+
+  .languageSelector {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile devices */
+
+  .app-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .joke-display {
+    font-size: 1.3rem;
+  }
+
+  .translate-btn {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .loading,
+  .error {
+    font-size: 0.9rem;
+  }
+
+  .languageSelector {
+    padding: 0.3rem;
+  }
+}
